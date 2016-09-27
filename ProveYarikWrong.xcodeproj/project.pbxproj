@@ -14,6 +14,7 @@
 		1F709E621D9AA88000E69BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F709E611D9AA88000E69BFD /* Assets.xcassets */; };
 		1F709E651D9AA88000E69BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F709E631D9AA88000E69BFD /* LaunchScreen.storyboard */; };
 		1F709E701D9AA88000E69BFD /* ProveYarikWrongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F709E6F1D9AA88000E69BFD /* ProveYarikWrongTests.m */; };
+		1F709E7C1D9AAA5E00E69BFD /* PropertyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F709E7B1D9AAA5E00E69BFD /* PropertyContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1F709E6B1D9AA88000E69BFD /* ProveYarikWrongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProveYarikWrongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F709E6F1D9AA88000E69BFD /* ProveYarikWrongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProveYarikWrongTests.m; sourceTree = "<group>"; };
 		1F709E711D9AA88000E69BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F709E7A1D9AAA5E00E69BFD /* PropertyContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyContainer.h; sourceTree = "<group>"; };
+		1F709E7B1D9AAA5E00E69BFD /* PropertyContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				1F709E631D9AA88000E69BFD /* LaunchScreen.storyboard */,
 				1F709E661D9AA88000E69BFD /* Info.plist */,
 				1F709E551D9AA88000E69BFD /* Supporting Files */,
+				1F709E7A1D9AAA5E00E69BFD /* PropertyContainer.h */,
+				1F709E7B1D9AAA5E00E69BFD /* PropertyContainer.m */,
 			);
 			path = ProveYarikWrong;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			files = (
 				1F709E5D1D9AA88000E69BFD /* ViewController.m in Sources */,
 				1F709E5A1D9AA88000E69BFD /* AppDelegate.m in Sources */,
+				1F709E7C1D9AAA5E00E69BFD /* PropertyContainer.m in Sources */,
 				1F709E571D9AA88000E69BFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
